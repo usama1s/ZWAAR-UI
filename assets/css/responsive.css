@@ -1,0 +1,5 @@
+@media (max-width:991px) {
+  nav>div:nth-of-type(1){
+    width: auto !important;
+  }
+}
