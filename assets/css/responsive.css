@@ -1,5 +1,45 @@
+@media (max-width: 1380px) {
+  .impressions::after{
+    height: 80%;
+    background-size:  auto 100%;
+  }
+}
+@media (max-width:1200px) {
+  nav .nav-item {
+    padding: 5px 5px;
+  }
+}
 @media (max-width:991px) {
-  nav>div:nth-of-type(1){
+  nav>.container>div:nth-of-type(1){
     width: auto !important;
+  }
+  .impressions::after{
+    width: 250%;
+  }
+}
+
+
+@media (max-width:767px) {
+  .quality-performance .item .body:after{
+    display: none;
+  }
+  .quality-performance .item .body .row div:nth-of-type(2) img{
+    margin-top: 40px;
+  }
+  .impressions::after{
+    width: 300%;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .quality-performance .item .title{
+    width: auto;
+  }
+  .impressions::after{
+    width: 350%;
+  }
+  .carousel-item-m{
+    width: 350px;
   }
 }
