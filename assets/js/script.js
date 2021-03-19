@@ -7,7 +7,7 @@
   var p = parseInt(style.marginLeft) + parseInt(style.marginRight);
   console.log("width: " + w + "padding: " + p);
 
-  var ww = [(l*w) + (l*p*1.13) + "px"];
+  var ww = [(l*w) + (l*p*1.22) + "px"];
 
   document.querySelector(".carousel-list .list").style.width = ww;
   // document.querySelector(".carousel-list .list").style.background = "red";
