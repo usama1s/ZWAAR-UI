@@ -16,6 +16,36 @@
   .impressions::after{
     width: 250%;
   }
+  .convert .img-side{
+    margin-top: 100px;
+  }
+  .drive-audience-tab{
+    margin: auto;
+  }
+  .features .img img.bg2{
+    display: block;
+  }
+  .features .img img.bg1{
+    display: none;
+  }
+  .features.pb-100{
+    padding-bottom: 0;
+  }
+  .featuers-items-2{
+    margin-bottom: 30px;
+  }
+  .features-2 .arrow-down-2{
+    display: block;
+  }
+  .features-2 .arrow-down{
+    display: none;
+  }
+  .features-2{
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+padding-top: 0;
+margin-top: 50px;
+  }
 }
 
 
@@ -29,6 +59,28 @@
   .impressions::after{
     width: 300%;
   }
+  .newsletter-form input{
+    width: 100%;
+    position: static;
+    transform: none;
+
+
+  }
+  .newsletter-form .plane-btn{
+    position: static;
+    width: 100%;
+    transform: none;
+    margin-top: 50px;
+  }
+  .newsletter-form .red-btn{
+    width: 100%;
+  }
+  .newsletter-form form{
+    height: auto;
+  }
+  /* .red-btn{
+    min-width: 80%;
+  } */
 }
 
 
@@ -42,4 +94,13 @@
   .carousel-item-m{
     width: 350px;
   }
+.nav-tabs .nav-item .nav-link{
+  padding: 10px 11px;
+}
+.advertise-item{
+  padding: 20px !important;
+}
+.advertise-item .fl-btn button.red-btn{
+  min-width: 100% !important;
+}
 }
