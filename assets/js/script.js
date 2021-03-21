@@ -1,17 +1,29 @@
-// function carouselSet(){
-  var carouselListItem = document.querySelectorAll(".carousel-list .list .carousel-item-m");
-  var l = (carouselListItem.length);
-  var w = carouselListItem[0].offsetWidth ;
-  let style = getComputedStyle(carouselListItem[0]);
-
-  var p = parseInt(style.marginLeft) + parseInt(style.marginRight);
-  console.log("width: " + w + "padding: " + p);
-
-  var ww = [(l*w) + (l*p*1.22) + "px"];
-
-  document.querySelector(".carousel-list .list").style.width = ww;
-  // document.querySelector(".carousel-list .list").style.background = "red";
-// }
 
 
-// alert("fdsf");
+  const slider = document.querySelector('.scroll-items');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  slider.addEventListener('mousedown', (e) => {
+    isDown = true;
+    slider.classList.add('active');
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+  });
+  slider.addEventListener('mouseleave', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+  slider.addEventListener('mouseup', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+  slider.addEventListener('mousemove', (e) => {
+    if(!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - slider.offsetLeft;
+    const walk = (x - startX) * 1; //scroll-fast
+    slider.scrollLeft = scrollLeft - walk;
+    console.log(walk);
+  });

@@ -8,6 +8,9 @@
   nav .nav-item {
     padding: 5px 5px;
   }
+  header.advertise-smart-managed{
+    background-image: url('../images/background-addvertise-smart-managed-mob.png');
+  }
 }
 @media (max-width:991px) {
   nav>.container>div:nth-of-type(1){
@@ -46,6 +49,28 @@
 padding-top: 0;
 margin-top: 50px;
   }
+  ul.links{
+    margin-top: 80px;
+  }
+  .features-3 .row .features-3-item{
+    padding: 0 !important;
+  }
+  .features-3 .img-side img{
+    width: 100%;
+    /* margin-bottom: 150px; */
+    margin-top: 80px;
+  }
+  .advertise.help .img-side img{
+    position: relative;
+    margin-top: -500px;
+    z-index: -1;
+  }
+  .advertise.help{
+    padding-bottom: 0;
+  }
+  .features-3{
+    margin-top: 75px !important;
+  }
 }
 
 
@@ -72,6 +97,7 @@ margin-top: 50px;
     transform: none;
     margin-top: 50px;
   }
+  .advertise.help .red-btn,
   .newsletter-form .red-btn{
     width: 100%;
   }
@@ -103,4 +129,49 @@ margin-top: 50px;
 .advertise-item .fl-btn button.red-btn{
   min-width: 100% !important;
 }
+.advertise.help .img-side img{
+  transform-origin: left center;
+  transform: scale(0.7);
+  position: relative;
+  margin-top: -550px;
+  z-index: -1;
+}
+.dedicated-m h2 span{
+  position: static;
+  transform: none;
+  display: block;
+  margin: auto;
+}
+.advertise.help{
+  margin-bottom: -200px;
+}
+}
+
+
+
+
+@media (min-width:992px) {
+  .advertise-item a:hover{
+    text-decoration: underline;
+  }
+  .red-btn.fill,
+  .red-btn:hover,
+  .red-btn:focus{
+    background: #fff;
+    color: #E82F6D ;
+  }
+  .red-btn.fill:hover{
+    background: #E82F6D;
+    color: #fff;
+  }
+  .red-a:hover,
+  .red-a:focus{
+    color: #E82F6D;
+    text-decoration: underline;
+  }
+  nav .red-btn:hover .nav-link{
+    color: #E82F6D ;
+  }
+
+
 }
