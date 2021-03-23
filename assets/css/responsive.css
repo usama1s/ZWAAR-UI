@@ -71,6 +71,20 @@ margin-top: 50px;
   .features-3{
     margin-top: 75px !important;
   }
+  .convert.money .img-side {
+
+    background-position:  center;
+}
+.features-sec-4 .row img{
+  margin-bottom: 50px;
+}
+.submit-url{
+/* background-image: url('../images/background-submit-url.png'); */
+/* background-position: center;
+background-size: cover ; */
+
+
+}
 }
 
 
@@ -144,6 +158,12 @@ margin-top: 50px;
 }
 .advertise.help{
   margin-bottom: -200px;
+}
+.submit-url-form form button{
+  min-width: 0;
+}
+.submit-url-form form label p{
+  text-align: left;
 }
 }
 

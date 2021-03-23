@@ -39,11 +39,13 @@
     $(".newsletter-form Button").html("Subscribed");
     $(".newsletter-form Button").addClass("clicked");
   setTimeout(function(){
-    $(".newsletter-form form").submit();
-    // $(".plane-b").removeClass("plane-b-animate");
-    // $(".plane-s").removeClass("plane-s-animate");
+    // $(".newsletter-form form").submit();
 
-  }, 1000);
+    $(".plane-b").removeClass("plane-b-animate");
+    $(".plane-s").removeClass("plane-s-animate");
+    $(".newsletter-form Button").html("Subscribe");
+    $(".newsletter-form Button").removeClass("clicked");
+  }, 2000);
 
 
 });
