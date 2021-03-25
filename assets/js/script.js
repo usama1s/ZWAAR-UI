@@ -1,33 +1,33 @@
 
 
-  const slider = document.querySelector('.scroll-items');
-  let isDown = false;
-  let startX;
-  let scrollLeft;
-
-  slider.addEventListener('mousedown', (e) => {
-    isDown = true;
-    slider.classList.add('active');
-    startX = e.pageX - slider.offsetLeft;
-    scrollLeft = slider.scrollLeft;
-  });
-  slider.addEventListener('mouseleave', () => {
-    isDown = false;
-    slider.classList.remove('active');
-  });
-  slider.addEventListener('mouseup', () => {
-    isDown = false;
-    slider.classList.remove('active');
-  });
-  slider.addEventListener('mousemove', (e) => {
-    if(!isDown) return;
-    e.preventDefault();
-    const x = e.pageX - slider.offsetLeft;
-    const walk = (x - startX) * 1; //scroll-fast
-    slider.scrollLeft = scrollLeft - walk;
-    console.log(walk);
-  });
-
+  // const slider = document.querySelector('.scroll-items');
+  // let isDown = false;
+  // let startX;
+  // let scrollLeft;
+  //
+  // slider.addEventListener('mousedown', (e) => {
+  //   isDown = true;
+  //   slider.classList.add('active');
+  //   startX = e.pageX - slider.offsetLeft;
+  //   scrollLeft = slider.scrollLeft;
+  // });
+  // slider.addEventListener('mouseleave', () => {
+  //   isDown = false;
+  //   slider.classList.remove('active');
+  // });
+  // slider.addEventListener('mouseup', () => {
+  //   isDown = false;
+  //   slider.classList.remove('active');
+  // });
+  // slider.addEventListener('mousemove', (e) => {
+  //   if(!isDown) return;
+  //   e.preventDefault();
+  //   const x = e.pageX - slider.offsetLeft;
+  //   const walk = (x - startX) * 1; //scroll-fast
+  //   slider.scrollLeft = scrollLeft - walk;
+  //   console.log(walk);
+  // });
+  //
 
 
 
@@ -111,3 +111,69 @@ window.onload = function() {
   // css.innerHTML = ".txt-rotate > .wrap { border-right: 3px solid #fff }";
   // document.body.appendChild(css);
 };
+
+
+
+
+
+
+
+// var elmnt = document.querySelector("#scrolling-div .body");
+// var myElement = document.querySelector('#scroll-here');
+// var topPos = myElement.offsetTop;
+// var x = elmnt.clientHeight;
+// console.log(x );
+// elmnt.scroll({
+//   top: x-400,
+//
+//   behavior: 'smooth'
+// });
+startPopUnderAnimation();
+function startPopUnderAnimation(){
+
+  var myElement = document.getElementById('scroll-here');
+  var topPos = myElement.clientHeight;
+
+  $('#scrolling-div .page1').animate({
+          scrollTop: topPos+350
+      }, 1500);
+
+  setTimeout(function(){
+    $('.cursor').addClass("move");
+  }, 2000);
+
+  setTimeout(function(){
+    $('.cursor').addClass("click");
+  }, 3000);
+
+  setTimeout(function(){
+    $('#scrolling-div').addClass("clicked");
+  }, 3200);
+
+  setTimeout(function(){
+    $('.cursor').addClass("hide");
+  }, 4000);
+
+  setTimeout(function(){
+    $('.pop-under').addClass("open-tab2");
+  }, 4500);
+
+  setTimeout(function(){
+    $('.pop-under').addClass("open-btn");
+  }, 5000);
+
+}
+
+
+// setTimeout(function(){
+//   alert("Hello");
+// }, 3000);
+
+
+// elmnt.scrollIntoView();
+// elmnt.scrollIntoView({ duration: 2000 });
+// cy.get('.next-page').scrollIntoView({ easing: 'linear' })
+// var myElement = document.getElementById('scroll-here');
+// var topPos = myElement.offsetTop;
+//
+// document.getElementById('scrolling-div').scrollTop = topPos;
