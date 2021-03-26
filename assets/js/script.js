@@ -134,46 +134,66 @@ function startPopUnderAnimation(){
   var myElement = document.getElementById('scroll-here');
   var topPos = myElement.clientHeight;
 
-  $('#scrolling-div .page1').animate({
-          scrollTop: topPos+350
-      }, 1500);
 
   setTimeout(function(){
-    $('.cursor').addClass("move");
-  }, 2000);
 
-  setTimeout(function(){
-    $('.cursor').addClass("click");
-  }, 3000);
+    $('#scrolling-div .page1').animate({
+            scrollTop: topPos+350
+        }, 600);
 
-  setTimeout(function(){
-    $('#scrolling-div').addClass("clicked");
-  }, 3200);
+        setTimeout(function(){
+          $('.cursor').addClass("move");
+          setTimeout(function(){
+            $('.cursor').addClass("click");
+             $('.pop-under').addClass("tapped");
+             setTimeout(function(){
+               $('.pop-under').addClass("open-tab2");
+               $('.cursor').addClass("hide");
+               setTimeout(function(){
+                 $('.pop-under').addClass("open-btn");
+               }, 1000);
+             }, 200);
+          }, 600);
+        }, 700);
 
-  setTimeout(function(){
-    $('.cursor').addClass("hide");
-  }, 4000);
+  }, 1500);
 
-  setTimeout(function(){
-    $('.pop-under').addClass("open-tab2");
-  }, 4500);
-
-  setTimeout(function(){
-    $('.pop-under').addClass("open-btn");
-  }, 5000);
+  //
+  // setTimeout(function(){
+  //   $('#scrolling-div').addClass("clicked");
+  // }, 3200);
+  //
+  // setTimeout(function(){
+  //   $('.cursor').addClass("hide");
+  // }, 4000);
+  //
+  // setTimeout(function(){
+  //   $('.pop-under').addClass("open-tab2");
+  // }, 4500);
+  //
+  // setTimeout(function(){
+  //   $('.pop-under').addClass("open-btn");
+  // }, 5000);
 
 }
 
 
-// setTimeout(function(){
-//   alert("Hello");
-// }, 3000);
+function restartPopUnderAnimation(){
+  $('.cursor').removeClass("move");
+  $('.cursor').removeClass("click");
+  $('.pop-under').removeClass("tapped");
+  $('.pop-under').removeClass("open-tab2");
+  $('.cursor').removeClass("hide");
+  $('.pop-under').removeClass("open-btn");
 
+  $('#scrolling-div .page1').animate({
+          scrollTop: 0
+      }, 600);
 
-// elmnt.scrollIntoView();
-// elmnt.scrollIntoView({ duration: 2000 });
-// cy.get('.next-page').scrollIntoView({ easing: 'linear' })
-// var myElement = document.getElementById('scroll-here');
-// var topPos = myElement.offsetTop;
-//
-// document.getElementById('scrolling-div').scrollTop = topPos;
+      startPopUnderAnimation();
+}
+
+$("#reload-btn").click(function(){
+
+  restartPopUnderAnimation();
+});

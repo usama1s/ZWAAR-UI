@@ -1774,6 +1774,7 @@ padding: 0;
 border-radius: 12px;
 display: inline-block;
 margin-top: 10px;
+margin-bottom: 10px;
 }
 .pop-under .content.page2 .s-item i{
   position: absolute;
@@ -1834,6 +1835,17 @@ margin: 12px;
 }
 .pop-under.open-tab2 .tab2{
   display: inline-block;
+  animation: openTab2 0.2s;
+}
+@keyframes openTab2 {
+  from{
+    transform: scale(0.1);
+    transform-origin: left bottom;
+  }
+  to{
+    transform: scale(1);
+    transform-origin: left bottom;
+  }
 }
 .pop-under.open-tab2 .page1{
   display: none;
@@ -1852,7 +1864,7 @@ margin: 12px;
 }
 .cursor{
   position: absolute !important;
-  left: 30%;
+  left: 42%;
   top: 60%;
   z-index: 2;
   display: block;
@@ -1861,16 +1873,19 @@ margin: 12px;
   display: none !important;
 }
 .cursor.move{
-  left: 60%;
-  animation: move 1s 1;
+  left: 56%;
+  animation: move 0.5s 1;
 }
 @keyframes move {
   from{
-    left: 30%;
+    left: 42%;
   }
   to{
-    left: 60%;
+    left: 56%;
   }
+}
+.cursor.hide{
+  display: none;
 }
 .pop-under>.container{
   position: relative;
@@ -1899,4 +1914,51 @@ from{
   to{
     transform: translate(2%,2%);
   }
+}
+.pop-under.open-btn{
+  position: relative;
+}
+.pop-under.open-btn #scrolling-div:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* background: red; */
+
+  z-index: 11;
+animation: bgChng 0.4s forwards;
+}
+@keyframes bgChng {
+  from{
+    background: transparent;
+  }
+  to{
+    background: #2648BF70;
+  }
+}
+.pop-under #demo-btn{
+  display: none;
+}
+.pop-under.open-btn #demo-btn{
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 12;
+}
+
+
+.pop-under #reload-btn{
+  display: none;
+}
+.pop-under.open-btn #reload-btn{
+  display: block;
+color: white;
+position: absolute;
+top: 10px;
+    right: 50px;
+z-index: 12;
 }
