@@ -128,7 +128,10 @@ window.onload = function() {
 //
 //   behavior: 'smooth'
 // });
-startPopUnderAnimation();
+if ($("#scroll-here")[0]){
+    startPopUnderAnimation();
+}
+
 function startPopUnderAnimation(){
 
   var myElement = document.getElementById('scroll-here');
