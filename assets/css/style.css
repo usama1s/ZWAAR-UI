@@ -13,6 +13,8 @@ body{
   font-family: 'Almarai', sans-serif;
   overflow-x: hidden;
 }
+select,
+input,
 a,
 input,
 button{
@@ -100,6 +102,9 @@ button{
 }
 .mb-150{
   margin-bottom: 150px;
+}
+.mb-100{
+  margin-bottom: 100px;
 }
 .h-20-bl-700{
   font-size: 20px;
@@ -999,14 +1004,14 @@ ul.links  p{
 .drive-audience-tab{
   max-width: 435px;
 }
-.nav-tabs{
+.drive-audience-tab .drive-audience-tab .nav-tabs{
 border: 0;
 }
 
-.nav-tabs .nav-item{
+.drive-audience-tab .nav-tabs .nav-item{
 border: 0 !important;
 }
-.nav-tabs .nav-item .nav-link{
+.drive-audience-tab .nav-tabs .nav-item .nav-link{
   color: #94A8EA;
   text-transform: capitalize;
   font-size: 20px;
@@ -1016,13 +1021,13 @@ border: 0 !important;
   border-bottom: 1px solid #F28CAE;
   padding: 10px 25px;
 }
-.nav-tabs .nav-item:nth-of-type(1) .nav-link{
+.drive-audience-tab .nav-tabs .nav-item:nth-of-type(1) .nav-link{
   padding-left: 0;
 }
-.nav-tabs .nav-item:nth-last-of-type(1) .nav-link{
+.drive-audience-tab .nav-tabs .nav-item:nth-last-of-type(1) .nav-link{
   padding-right: 0;
 }
-.nav-tabs .nav-item .nav-link.active{
+.drive-audience-tab .nav-tabs .nav-item .nav-link.active{
 border: 0;
 padding-bottom: 9px;
 border-bottom: 5px solid #ED5E8E;
@@ -1471,7 +1476,7 @@ margin-right: -20px;
   line-height: 50px;
   color: #6E00B3;
   font-weight: 700;
-  font-family: "Font Awesome 5 Free"
+  font-family: "Font Awesome 5 Free";
 
 }
 .submit-url-form form div::after{
@@ -1961,4 +1966,299 @@ position: absolute;
 top: 10px;
     right: 50px;
 z-index: 12;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* traffic page */
+.traffic-banner{
+
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.traffic-banner h1{
+  color: #50C9B6;
+text-shadow: 0px 3px 3px #15296B4D;
+font-size: 56px;
+line-height: 74px;
+font-weight: 300;
+}
+.traffic-banner form select,
+.traffic-banner form label,
+.traffic-banner p{
+color: #FFFFFF;
+font-size: 18px;
+line-height: 26px;
+font-weight: 300;
+}
+
+
+.title-box{
+  border: 1px solid #50C9B6;
+  border-radius: 32px;
+  width: 720px;
+height: 183px;
+margin-top: 65px;
+margin-bottom: 65px;
+/* border-top: 0; */
+
+/* background: linear-gradient(to right, #50C9B6 30%,#50C9B6 calc(50% - 128px), transparent calc(50% - 128px), transparent calc(50% + 128px), #50C9B6 calc(50% + 128px), #50C9B6 70%) no-repeat;
+  background-size: 100% 1px;
+  background-position: top center; */
+}
+/* .title-box::before{
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-image: #50C9B6;
+
+} */
+.title-box .title{
+  color: #FFFFFF;
+  text-shadow: 0px 2px 2px #00000029;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 100;
+  border: 1px solid #50C9B6;
+border-radius: 8px;
+padding: 13px 17px;
+
+}
+.title-box .text{
+
+  font-family: 'Cairo', sans-serif;
+  font-size: 96px;
+  font-weight: 500;
+  /* line-height: 180px; */
+  color: #fff;
+}
+.traffic-banner form{
+
+}
+.traffic-banner form label{
+font-weight: 700;
+}
+.traffic-banner form select{
+font-weight: 700;
+color: #4F20B9;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 8px #15296B4C;
+border: 1px solid #BFCBF3;
+border-radius: 6px;
+height: 48px;
+padding: 0 7px;
+cursor: pointer;
+}
+.traffic-banner form .select{
+  position: relative;
+}
+.traffic-banner form .select::after{
+
+
+  content: "\f0dd";
+  display: block;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  right: 15px;
+
+  z-index: 1;
+  font-size: 24px;
+  line-height: 50px;
+color: #4F20B9;
+  font-weight: 700;
+  font-family: "Font Awesome 5 Free"
+}
+.traffic-banner form select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+.verticals-m{
+padding: 80px 0;
+}
+.verticals-m h1{
+color: #3F63DA;
+font-size: 56px;
+line-height: 74px;
+font-weight: 500;
+}
+.verticals-m p{
+color: #3F63DA;
+font-size: 18px;
+line-height: 26px;
+margin: 0;
+font-weight: 300;
+}
+.vertical-item{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 8px #15296B4C;
+  border: 1px solid #BFCBF3;
+  border-radius: 6px;
+  padding: 13px;
+  margin: 8px auto;
+  max-width: 265.5px;
+  height: calc(100% - 16px);
+}
+.vertical-item h2{
+color: #2549C0;
+font-size: 22px;
+line-height: 32px;
+font-weight: 700;
+}
+.vertical-item hr{
+background: #BFCBF3;
+height: 1px;
+width: 100%;
+border: 0;
+
+}
+.vertical-item h3{
+color: #2549C0;
+text-transform: uppercase;
+font-size: 14px;
+line-height: 32px;
+margin: 0;
+font-weight: 700;
+}
+.vertical-item h4{
+color: #2549C0;
+font-size: 20px;
+line-height: 32px;
+font-weight: 700;
+margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* faq */
+.g-banner{
+padding: 125px 0;
+}
+.g-banner h1{
+  letter-spacing: 1.28px;
+  color: #FFFFFF;
+  font-size: 64px;
+  line-height: 90px;
+  font-weight: 500;
+}
+.g-banner p{
+  letter-spacing: 0px;
+  color: #9EE1D7;
+  text-shadow: 0px 2px 2px #00000029;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+
+.b-bg{
+  background: #EAEEFB 0% 0% no-repeat padding-box;
+  position: relative;
+}
+.b-bg-title {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.faq-tabs .nav-tabs{
+  background: #50C9B6 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 3px #00000029;
+border-radius: 10px;
+}
+.faq-tabs .nav-tabs .nav-link{
+  color: #FFFFFF;
+text-shadow: 0px 2px 2px #15296B4C;
+font-size: 22px;
+line-height: 30px;
+font-weight: 300;
+border: 0 !important
+}
+.faq-tabs .nav-tabs .nav-link.active{
+  background: transparent;
+  border: 0;
+  font-weight: 700;
+}
+.faq-tabs .nav-tabs .nav-link:hover{
+
+}
+
+.faq .card{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 1px 3px #00000029;
+border-radius: 10px;
+border: 0;
+}
+.faq .card{
+  margin-bottom: 15px;
+}
+.faq .card-header {
+  background: transparent;
+  border: 0;
+  padding: 14px 30px;
+}
+.faq .card-header button{
+  letter-spacing: 0px;
+color: #2549C0;
+font-size: 22px;
+line-height: 30px;
+font-weight: 300;
+text-decoration: none !important;
+padding: 0;
+width: 100%;
+text-align: left;
+}
+.faq .card-body{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0;
+}
+.faq .card-body p{
+  letter-spacing: 0px;
+color: #3F63DA;
+font-size: 18px;
+line-height: 24px;
+font-weight: 300;
+margin: 0;
+
+}
+.faq .card-body a{
+  letter-spacing: 0px;
+color: #F28CAE;
+font-size: 16px;
+line-height: 21px;
+font-weight: 300;
+margin-top: 18px;
+display: block;
+}
+.faq .tab-pane{
+  padding-top: 63px;
 }

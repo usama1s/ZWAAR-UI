@@ -85,6 +85,12 @@ background-size: cover ; */
 
 
 }
+.title-box .text{
+  font-size: 88px;
+}
+.title-box{
+  width: auto;
+}
 }
 
 
@@ -121,6 +127,9 @@ background-size: cover ; */
   /* .red-btn{
     min-width: 80%;
   } */
+  .title-box .text{
+    font-size: 65px;
+  }
 }
 
 
@@ -134,7 +143,7 @@ background-size: cover ; */
   .carousel-item-m{
     width: 350px;
   }
-.nav-tabs .nav-item .nav-link{
+.drive-audience-tab .nav-tabs .nav-item .nav-link{
   padding: 10px 11px;
 }
 .advertise-item{
@@ -167,6 +176,13 @@ background-size: cover ; */
 }
 .tab-header .tab{
   width: 100px;
+}
+.title-box .text{
+  font-size: 42px;
+  line-height: 100px;
+}
+.faq-tabs .nav-tabs .nav-item .nav-link{
+  padding: 10px 8px;
 }
 }
 
