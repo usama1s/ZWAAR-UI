@@ -47,7 +47,7 @@
     $(".newsletter-form Button").removeClass("clicked");
   }, 2000);
 
-
+// alert("fdsafsa");
 });
 
 

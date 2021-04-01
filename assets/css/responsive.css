@@ -11,6 +11,9 @@
   header.advertise-smart-managed{
     background-image: url('../images/background-addvertise-smart-managed-mob.png');
   }
+  .contact-background:after{
+    width: 200%;
+  }
 }
 @media (max-width:991px) {
   nav>.container>div:nth-of-type(1){
@@ -91,6 +94,9 @@ background-size: cover ; */
 .title-box{
   width: auto;
 }
+.contact-background:after{
+  width: 250%;
+}
 }
 
 
@@ -130,6 +136,28 @@ background-size: cover ; */
   .title-box .text{
     font-size: 65px;
   }
+  .contact-banner .contact-item{
+    width: 305px;
+    height: 64px;
+  }
+  .contact-banner h1{
+    margin-bottom: 0;
+    line-height: 27px;
+  }
+  .contact-banner  a{
+    line-height: 25px;
+    text-align: left;
+    display: block;
+  }
+  .contact-background:after{
+    width: 250%;
+    height: 95%;
+  }
+  .t-conditions-tabs .tab-pane{
+    display: block !important;
+    opacity: 1;
+  }
+
 }
 
 
@@ -183,6 +211,11 @@ background-size: cover ; */
 }
 .faq-tabs .nav-tabs .nav-item .nav-link{
   padding: 10px 8px;
+}
+.t-conditions,
+.p-policy{
+  margin-left: 20px;
+  margin-right: 20px;
 }
 }
 
