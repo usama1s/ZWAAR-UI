@@ -2,6 +2,7 @@
   .impressions::after{
     height: 80%;
     background-size:  auto 100%;
+    width: 2500px;
   }
 }
 @media (max-width:1200px) {
@@ -20,10 +21,12 @@
     width: auto !important;
   }
   .impressions::after{
-    width: 250%;
+    /* width: 2500px; */
   }
   .convert .img-side{
     margin-top: 100px;
+    background-size: contain;
+    background-position: center !important;
   }
   .drive-audience-tab{
     margin: auto;
@@ -108,7 +111,7 @@ background-size: cover ; */
     margin-top: 40px;
   }
   .impressions::after{
-    width: 300%;
+    width: 2000px;
   }
   .newsletter-form input{
     width: 100%;
@@ -157,6 +160,11 @@ background-size: cover ; */
     display: block !important;
     opacity: 1;
   }
+  h5.curved{
+    transform-origin: center;
+    transform:  scale(0.8);
+    padding-bottom: 20px;
+  }
 
 }
 
@@ -166,7 +174,7 @@ background-size: cover ; */
     width: auto;
   }
   .impressions::after{
-    width: 350%;
+    /* width: 350%; */
   }
   .carousel-item-m{
     width: 350px;
@@ -216,6 +224,22 @@ background-size: cover ; */
 .p-policy{
   margin-left: 20px;
   margin-right: 20px;
+}
+
+h6.curved{
+  transform-origin: center;
+  transform:  scale(0.8);
+}
+h5.curved{
+  transform-origin: center;
+  transform:  scale(0.5);
+  padding-bottom: 0;
+}
+.world-map{
+  padding-top: 100px;
+}
+.impressions{
+  padding-top: 50px;
 }
 }
 

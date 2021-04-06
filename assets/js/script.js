@@ -1,33 +1,33 @@
 
 
-  // const slider = document.querySelector('.scroll-items');
-  // let isDown = false;
-  // let startX;
-  // let scrollLeft;
-  //
-  // slider.addEventListener('mousedown', (e) => {
-  //   isDown = true;
-  //   slider.classList.add('active');
-  //   startX = e.pageX - slider.offsetLeft;
-  //   scrollLeft = slider.scrollLeft;
-  // });
-  // slider.addEventListener('mouseleave', () => {
-  //   isDown = false;
-  //   slider.classList.remove('active');
-  // });
-  // slider.addEventListener('mouseup', () => {
-  //   isDown = false;
-  //   slider.classList.remove('active');
-  // });
-  // slider.addEventListener('mousemove', (e) => {
-  //   if(!isDown) return;
-  //   e.preventDefault();
-  //   const x = e.pageX - slider.offsetLeft;
-  //   const walk = (x - startX) * 1; //scroll-fast
-  //   slider.scrollLeft = scrollLeft - walk;
-  //   console.log(walk);
-  // });
-  //
+  const slider = document.querySelector('.scroll-items');
+  let isDown = false;
+  let startX;
+  let scrollLeft;
+
+  slider.addEventListener('mousedown', (e) => {
+    isDown = true;
+    slider.classList.add('active');
+    startX = e.pageX - slider.offsetLeft;
+    scrollLeft = slider.scrollLeft;
+  });
+  slider.addEventListener('mouseleave', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+  slider.addEventListener('mouseup', () => {
+    isDown = false;
+    slider.classList.remove('active');
+  });
+  slider.addEventListener('mousemove', (e) => {
+    if(!isDown) return;
+    e.preventDefault();
+    const x = e.pageX - slider.offsetLeft;
+    const walk = (x - startX) * 1; //scroll-fast
+    slider.scrollLeft = scrollLeft - walk;
+    console.log(walk);
+  });
+
 
 
 
@@ -59,7 +59,8 @@ var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
-  this.period = parseInt(period, 10) || 2000;
+  // this.period = parseInt(period, 10) || 2000;
+  this.period = 500; // ending duration
   this.txt = '';
   this.tick();
   this.isDeleting = false;
@@ -67,8 +68,11 @@ var TxtRotate = function(el, toRotate, period) {
 
 TxtRotate.prototype.tick = function() {
   var i = this.loopNum % this.toRotate.length;
-  var fullTxt = this.toRotate[i];
+  // console.log(this.toRotate.length);
 
+  var fullTxt = this.toRotate[i];
+    // console.log(fullTxt.length);
+// console.log(this.txt.length);
   if (this.isDeleting) {
     this.txt = fullTxt.substring(0, this.txt.length - 1);
   } else {
@@ -80,15 +84,21 @@ TxtRotate.prototype.tick = function() {
   var that = this;
   var delta = 300 - Math.random() * 100;
 
-  if (this.isDeleting) { delta /= 2; }
+  if (this.isDeleting) {
+    // delta /= 2;
+    delta = 780/(fullTxt.length); // deleting character
+  }else{
+    delta = 1500/(fullTxt.length); //typing character
+  }
 
   if (!this.isDeleting && this.txt === fullTxt) {
-    delta = this.period;
+    // delta = this.period;
+    delta = 1150; // ending duration
     this.isDeleting = true;
   } else if (this.isDeleting && this.txt === '') {
     this.isDeleting = false;
     this.loopNum++;
-    delta = 500;
+    delta = 1000; //starting duration
   }
 
   setTimeout(function() {
@@ -149,13 +159,14 @@ function startPopUnderAnimation(){
           setTimeout(function(){
             $('.cursor').addClass("click");
              $('.pop-under').addClass("tapped");
+             $('#scrolling-div').addClass("clicked");
              setTimeout(function(){
                $('.pop-under').addClass("open-tab2");
                $('.cursor').addClass("hide");
                setTimeout(function(){
                  $('.pop-under').addClass("open-btn");
                }, 1000);
-             }, 200);
+             }, 300);
           }, 600);
         }, 700);
 
@@ -200,3 +211,15 @@ $("#reload-btn").click(function(){
 
   restartPopUnderAnimation();
 });
+
+
+
+
+
+// var i=1;
+// $("h6.curved span").each(function(){
+//   // alert("fdsaf");
+//   // console.log("t");
+//   $(this).css('transform','rotate('+ (i*1.5) + 'deg)');
+//   i++;
+// })
