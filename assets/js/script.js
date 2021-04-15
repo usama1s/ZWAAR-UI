@@ -1,5 +1,5 @@
 
-
+if ($(".scroll-items")[0]) {
   const slider = document.querySelector('.scroll-items');
   let isDown = false;
   let startX;
@@ -27,6 +27,8 @@
     slider.scrollLeft = scrollLeft - walk;
     console.log(walk);
   });
+}
+
 
 
 

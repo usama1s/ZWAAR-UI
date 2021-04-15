@@ -1,0 +1,144 @@
+html[dir="rtl"] .text-left{
+  text-align: right !important;
+}
+html[dir="rtl"] body{
+  text-align: right;
+}
+html[dir="rtl"] .advertise-item ul{
+  padding-left: 0;
+  padding-right: 35px;
+}
+html[dir="rtl"] .advertise-item ul li::before {
+
+    left: auto;
+    right: -33px;
+
+}
+html[dir="rtl"] .convert h2{
+  text-align: right;
+}
+html[dir="rtl"] .txt-rotate > .wrap{
+
+  border-left: 3px solid #fff;
+  border-right: 0;
+  padding-right: 0;
+  padding-left: 5px;
+}
+html[dir="rtl"] .newsletter-form input{
+  left: auto;
+  right: 0;
+}
+html[dir="rtl"] .newsletter-form .plane-btn{
+  right: auto;
+  left: 0;
+}
+html[dir="rtl"] .newsletter-form .plane-b {
+
+    right: auto;
+left: 0;
+    transform: translate(-29%,52%) scaleX(-1);
+}
+html[dir="rtl"] .newsletter-form .plane-s {
+
+    right: auto;
+    left: 0;
+    transform: translate(20%,-70%)  scaleX(-1);
+}
+html[dir="rtl"] .newsletter-form .plane-b.plane-b-animate{
+  animation: plane-b-animate-r 2s forwards;
+}
+@keyframes plane-b-animate-r {
+  100%,0%{
+    transform: translate(-29%,52%) scaleX(-1);
+  }
+  50%{
+    transform: translate(-1000%,-500%) scaleX(-1);
+  }
+}
+html[dir="rtl"] .newsletter-form .plane-s.plane-s-animate{
+animation: plane-s-animate-r 2s forwards;
+}
+@keyframes plane-s-animate-r {
+  100%,0%{
+    transform: translate(20%,-70%) scaleX(-1);
+  }
+  50%{
+    transform: translate(20%,-1570%) scaleX(-1);
+  }
+}
+html[dir="rtl"] footer{
+  text-align: right;
+}
+
+
+html[dir="rtl"] .drive-audience-tab .nav-tabs .nav-item:nth-of-type(1) .nav-link{
+  padding-left: 25px;
+  padding-right: 0;
+}
+html[dir="rtl"] .drive-audience-tab .nav-tabs .nav-item:nth-last-of-type(1) .nav-link{
+  padding-left: 0;
+  padding-right: 25px;
+}
+@keyframes moveLeft {
+  0% {
+    transform: translateX(-100%);
+}
+100% {
+    transform: translateX(0);
+}
+}
+html[dir="rtl"] .convert .img-side{
+  transform: scaleX(-1);
+}
+html[dir="rtl"] .advertise.help .img-side img{
+  transform: scaleX(-1);
+  right: 0;
+  left: auto;
+}
+
+@media (max-width: 576px) {
+  html[dir="rtl"] .advertise.help .img-side img {
+    transform-origin: right center;
+    transform: scaleX(-1) scale(0.7) translateX(100%);
+
+  }
+}
+
+html[dir="rtl"] .faq .card-header button{
+  text-align: right;
+}
+html[dir="rtl"] .submit-url-form form div::after{
+  /* text-align: left; */
+  content: ".www";
+  left: 58px;
+}
+html[dir="rtl"] .submit-url-form form div input{
+  text-align: left;
+}
+html[dir="rtl"] .submit-url-form form label{
+  padding-left: 0;
+  padding-right: 25px;
+}
+html[dir="rtl"] .submit-url-form form label span::before{
+  left: auto;
+  right: 0;
+}
+html[dir="rtl"] .submit-url-form form label span::after{
+  left: auto;
+  right: 3px;
+}
+
+
+
+html[dir="rtl"] .t-conditions-tabs .nav-tabs{
+  padding-right: 0;
+  padding-left: 40px;
+}
+html[dir="rtl"] .t-conditions-tabs .nav-tabs:after{
+  right: auto;
+  left: 20px;
+}
+html[dir="rtl"] .traffic-banner form .select::after{
+  left: 15px;
+  right: auto;
+}

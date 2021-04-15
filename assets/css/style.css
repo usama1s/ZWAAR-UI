@@ -917,6 +917,7 @@ footer{
   background-repeat: no-repeat;
   padding: 120px 20px;
   overflow: hidden;
+  text-align: left;
 }
   footer h2,
 footer h1{
@@ -1107,6 +1108,7 @@ ul.links  p{
   font-weight: bold;
       margin-bottom: 80px;
       text-shadow: 0px 3px 3px #45081C4D;
+      text-align: left;
 }
 .convert .red-btn{
   width: 100%;
@@ -1254,9 +1256,20 @@ margin-bottom: 40px;
 }
 .drive-audience .img-side img{
   height: 100%;
+  display: none;
 }
-
-
+.drive-audience .img-side img.active{
+  display: block;
+  animation: moveLeft 0.5s;
+}
+@keyframes moveLeft {
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
 
 
 
@@ -1581,6 +1594,7 @@ font-weight: 300;
 .advertise.help .img-side img{
   position: absolute;
   bottom: 0;
+  left: 0;
 }
 
 
@@ -1808,6 +1822,7 @@ position: relative;
   display: block;
   margin: auto;
   position: relative;
+      text-align: left;
 }
 .pop-under .tab-header{
   height: 40px;

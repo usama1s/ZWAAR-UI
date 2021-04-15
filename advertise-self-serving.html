@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/style-rtl.css">
   <title>Zwaar</title>
 </head>
 
@@ -67,7 +68,7 @@
             <h2> <span
      class="txt-rotate"
      data-period="2000"
-     data-rotate='[ "Convert", "Reach","Open" ]'></span></h2>
+     data-rotate='[ "Convert", "Reach","للمساعدة" ]'></span></h2>
             <p class="h-22-w mb-3 pb-1">Grow revenue with performance </p>
             <button class="red-btn m-0 mb-4" type="button" name="button">Create Campaign Demo</button>
             <a class="red-a d-block text-center" href="#">Onboarding Manager</a>
@@ -96,16 +97,16 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#launch">Launch</a>
+                <a class="nav-link active" data-toggle="tab" href="#launch" onclick="updateImg('launch-img')">Launch</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#track">Track</a>
+                <a class="nav-link" data-toggle="tab" href="#track" onclick="updateImg('track-img')">Track</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#monitor">Monitor</a>
+                <a class="nav-link" data-toggle="tab" href="#monitor" onclick="updateImg('monitor-img')">Monitor</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#scale">Scale</a>
+                <a class="nav-link" data-toggle="tab" href="#scale" onclick="updateImg('scale-img')">Scale</a>
               </li>
             </ul>
 
@@ -131,7 +132,10 @@
           </div>
         </div>
         <div class="col-lg-6 img-side">
-          <img src="assets/images/banner-drive-audience.svg" alt="">
+          <img id="launch-img" class="active" src="assets/images/banner-drive-audience-1.svg" alt="">
+          <img id="track-img" src="assets/images/banner-drive-audience-1.svg" alt="">
+          <img id="monitor-img" src="assets/images/banner-drive-audience-1.svg" alt="">
+          <img id="scale-img" src="assets/images/banner-drive-audience-1.svg" alt="">
         </div>
       </div>
     </div>
@@ -719,6 +723,16 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
   <script src="assets/js/script.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  function updateImg(id){
+  $("#launch-img").removeClass("active");
+  $("#track-img").removeClass("active");
+  $("#monitor-img").removeClass("active");
+  $("#scale-img").removeClass("active");
+
+    $("#"+id).addClass("active");
+  }
+  </script>
 </body>
 
 </html>
