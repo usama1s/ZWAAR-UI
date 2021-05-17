@@ -13,7 +13,7 @@
     background-image: url('../images/background-addvertise-smart-managed-mob.png');
   }
   .contact-background:after{
-    width: 200%;
+    /* width: 200%; */
   }
 }
 @media (max-width:991px) {
@@ -98,7 +98,7 @@ background-size: cover ; */
   width: auto;
 }
 .contact-background:after{
-  width: 250%;
+  /* width: 250%; */
 }
 }
 
@@ -142,6 +142,9 @@ background-size: cover ; */
   .contact-banner .contact-item{
     width: 305px;
     height: 64px;
+
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .contact-banner h1{
     margin-bottom: 0;
@@ -153,8 +156,8 @@ background-size: cover ; */
     display: block;
   }
   .contact-background:after{
-    width: 250%;
-    height: 95%;
+    /* width: 250%;
+    height: 95%; */
   }
   .t-conditions-tabs .tab-pane{
     display: block !important;

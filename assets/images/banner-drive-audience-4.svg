@@ -1,0 +1,628 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="757.384" height="554.35" viewBox="0 0 757.384 554.35">
+  <defs>
+    <filter id="Rectangle_1485" x="26" y="0" width="731.384" height="554.35" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#15296b" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_16094" x="247" y="20" width="26" height="26" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-2"/>
+      <feFlood flood-color="#2e3888" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_472" x="2" y="106.112" width="730" height="389.121" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1686" x="0" y="98.01" width="734" height="47.508" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-4"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Expenses" x="345.062" y="111.663" width="48" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-5"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Impressions" x="246.823" y="111.663" width="59" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-6"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Status" x="591.844" y="111.663" width="34" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-7"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Countries" x="71.057" y="111.663" width="48" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-8"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_" x="24.897" y="109.295" width="14" height="24" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-9"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Conversions" x="424.364" y="111.663" width="60" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-10"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="sort-amount-down" x="307.018" y="114.03" width="16.822" height="15.469" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-11"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1419" x="698.369" y="114.03" width="8.841" height="8.841" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-12"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1424" x="698.369" y="117.817" width="8.841" height="11.681" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-13"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1420" x="702.63" y="114.03" width="8.841" height="8.841" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-14"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1423" x="702.63" y="117.817" width="8.841" height="11.681" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-15"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1421" x="706.891" y="114.03" width="8.841" height="8.841" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-16"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-16"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1422" x="706.891" y="117.817" width="8.841" height="11.681" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-17"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-17"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Search" x="163.379" y="111.663" width="36" height="20" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-18"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-18"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="search-2" x="150.951" y="114.622" width="15.467" height="15.469" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-19"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-19"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1691" x="0" y="478.09" width="734" height="47.508" filterUnits="userSpaceOnUse">
+      <feOffset dy="-2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-20"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-20"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Export" x="670.554" y="496.335" width="33" height="19" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-21"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-21"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="file-export" x="654.575" y="498.702" width="16.652" height="15.469" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-22"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-22"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Refresh" x="598.354" y="498.11" width="35" height="15" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-23"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-23"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="redo-alt" x="582.967" y="498.11" width="15.469" height="15.469" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-24"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-24"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="chevron-left" x="24.897" y="499.886" width="10.31" height="13.102" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-25"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-25"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="chevron-left-2" x="323.165" y="499.886" width="10.31" height="13.102" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-26"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-26"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_1" x="48.752" y="494.559" width="12" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-27"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-27"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_2" x="73.608" y="494.559" width="12" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-28"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-28"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_3" x="98.464" y="494.559" width="12" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-29"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-29"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_4" x="123.32" y="494.559" width="12" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-30"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-30"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_5" x="148.175" y="494.559" width="12" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-31"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-31"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_6" x="173.031" y="494.559" width="12" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-32"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-32"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_7" x="197.887" y="494.559" width="12" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-33"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-33"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_8" x="222.743" y="494.559" width="12" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-34"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-34"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_9" x="247.598" y="494.559" width="12" height="21" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-35"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-35"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_10" x="269.495" y="494.559" width="18" height="23" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-36"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-36"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="_11" x="294.351" y="494.559" width="18" height="23" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-37"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-37"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="redo-alt-2" x="677.656" y="114.03" width="15.469" height="15.469" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-38"/>
+      <feFlood flood-color="#39005c" flood-opacity="0.498"/>
+      <feComposite operator="in" in2="blur-38"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_399" x="152.134" y="147.354" width="14.274" height="14.285" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur-39"/>
+      <feFlood flood-color="#2e3888" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur-39"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_10485" data-name="Group 10485" transform="translate(-685 -2425.865)">
+    <g id="Group_10159" data-name="Group 10159" transform="translate(720 2424.865)">
+      <g id="Group_5488" data-name="Group 5488" transform="translate(0 4)">
+        <g transform="matrix(1, 0, 0, 1, -35, -3)" filter="url(#Rectangle_1485)">
+          <path id="Rectangle_1485-2" data-name="Rectangle 1485" d="M8,0H705.384a8,8,0,0,1,8,8V531.35a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V8A8,8,0,0,1,8,0Z" transform="translate(35 3)" fill="#fff"/>
+        </g>
+        <ellipse id="Ellipse_636" data-name="Ellipse 636" cx="1.517" cy="1.517" rx="1.517" ry="1.517" transform="translate(683.046 44.048)" fill="#f7f9fb"/>
+        <ellipse id="Ellipse_637" data-name="Ellipse 637" cx="1.517" cy="1.517" rx="1.517" ry="1.517" transform="translate(683.046 47.84)" fill="#f7f9fb"/>
+        <ellipse id="Ellipse_638" data-name="Ellipse 638" cx="1.517" cy="1.517" rx="1.517" ry="1.517" transform="translate(683.046 51.633)" fill="#f7f9fb"/>
+        <path id="Rectangle_1483" data-name="Rectangle 1483" d="M8,0H708.384a5,5,0,0,1,5,5V50a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" transform="translate(0)" fill="#94a8ea"/>
+        <g id="Group_5485" data-name="Group 5485" transform="translate(664.102 18.994)">
+          <path id="Path_309" data-name="Path 309" d="M63.847,23.567h-3.8a2.739,2.739,0,0,1-2.731-2.731v-3.8a2.739,2.739,0,0,1,2.731-2.731h3.8a2.739,2.739,0,0,1,2.731,2.731v3.8A2.73,2.73,0,0,1,63.847,23.567Z" transform="translate(-57.32 -14.31)" fill="#fff"/>
+          <path id="Path_310" data-name="Path 310" d="M75.017,23.567h-3.8a2.739,2.739,0,0,1-2.731-2.731v-3.8a2.739,2.739,0,0,1,2.731-2.731h3.8a2.739,2.739,0,0,1,2.731,2.731v3.8A2.73,2.73,0,0,1,75.017,23.567Z" transform="translate(-53.238 -14.31)" fill="#fff"/>
+          <path id="Path_311" data-name="Path 311" d="M86.177,23.567h-3.8a2.739,2.739,0,0,1-2.731-2.731v-3.8a2.739,2.739,0,0,1,2.731-2.731h3.8a2.739,2.739,0,0,1,2.731,2.731v3.8A2.721,2.721,0,0,1,86.177,23.567Z" transform="translate(-49.161 -14.31)" fill="#fff"/>
+        </g>
+        <g id="Group_5487" data-name="Group 5487" transform="translate(9.465 10)">
+          <path id="Path_16092" data-name="Path 16092" d="M-8578.651-1005.43a8.384,8.384,0,0,0,3.237-1.7,5.639,5.639,0,0,0,1.031-3.369s-.035-30.228,0-31.8a3.922,3.922,0,0,1,4.09-3.695c25.969.052,176.605.354,178.592.341a4.888,4.888,0,0,1,4.54,5.228c-.038,7.072-.093,28.13.031,29.359.172,1.727.281,2.836,1.226,3.85a7.183,7.183,0,0,0,1.68,1.342,5.036,5.036,0,0,0,1.583.456Z" transform="translate(8578.651 1046.002)" fill="#fff"/>
+          <text id="optimize_campaign" data-name="optimize campaign" transform="translate(41.642 24.625)" fill="#3f63da" font-size="11" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">OPTIMIZE CAMPAIGN</tspan></text>
+          <g id="Group_5529" data-name="Group 5529" transform="translate(16.467 11.477)">
+            <g id="Group_141" data-name="Group 141" transform="translate(0.015)">
+              <path id="Path_306" data-name="Path 306" d="M16.334,18.363H13.64a.373.373,0,0,1-.373-.373v-.5a.373.373,0,0,1,.373-.373h2.694a.874.874,0,0,0,.873-.873V2.119a.874.874,0,0,0-.873-.873H2.209a.874.874,0,0,0-.873.873V4.762a.373.373,0,0,1-.373.373h-.5A.373.373,0,0,1,.09,4.762V2.119A2.119,2.119,0,0,1,2.209,0H16.334a2.119,2.119,0,0,1,2.119,2.119V16.244A2.119,2.119,0,0,1,16.334,18.363Z" transform="translate(-0.09)" fill="#3f63da"/>
+            </g>
+            <g id="Group_144" data-name="Group 144" transform="translate(0 7.504)">
+              <g id="Group_142" data-name="Group 142" transform="translate(0.015)">
+                <path id="Path_307" data-name="Path 307" d="M5.587,48.985l-.353-.353a.376.376,0,0,1,0-.529l4.54-4.54a.872.872,0,0,0-.618-1.489H.463A.373.373,0,0,1,.09,41.7v-.5a.373.373,0,0,1,.373-.373H9.126a2.146,2.146,0,0,1,1.981,1.288,2.088,2.088,0,0,1-.45,2.329l-4.54,4.54A.378.378,0,0,1,5.587,48.985Z" transform="translate(-0.09 -40.83)" fill="#3f63da"/>
+              </g>
+              <g id="Group_143" data-name="Group 143" transform="translate(0 2.593)">
+                <path id="Path_308" data-name="Path 308" d="M10.485,63.2H2.164A2.146,2.146,0,0,1,.183,61.915a2.088,2.088,0,0,1,.45-2.329l4.54-4.54a.376.376,0,0,1,.529,0l.353.353a.376.376,0,0,1,0,.529l-4.542,4.54a.872.872,0,0,0,.618,1.489h8.354a.373.373,0,0,1,.373.373v.5A.374.374,0,0,1,10.485,63.2Z" transform="translate(-0.008 -54.938)" fill="#3f63da"/>
+              </g>
+            </g>
+            <g id="Group_145" data-name="Group 145" transform="translate(10.534 2.63)">
+              <path id="Path_309-2" data-name="Path 309" d="M58.2,15.556h-.511a.369.369,0,0,1-.368-.368v-.511a.369.369,0,0,1,.368-.368H58.2a.369.369,0,0,1,.368.368v.511A.367.367,0,0,1,58.2,15.556Z" transform="translate(-57.32 -14.31)" fill="#3f63da"/>
+              <path id="Path_310-2" data-name="Path 310" d="M69.369,15.556h-.511a.369.369,0,0,1-.368-.368v-.511a.369.369,0,0,1,.368-.368h.511a.369.369,0,0,1,.368.368v.511A.367.367,0,0,1,69.369,15.556Z" transform="translate(-66.437 -14.31)" fill="#3f63da"/>
+              <path id="Path_311-2" data-name="Path 311" d="M80.529,15.556h-.511a.369.369,0,0,1-.368-.368v-.511a.369.369,0,0,1,.368-.368h.511a.369.369,0,0,1,.368.368v.511A.366.366,0,0,1,80.529,15.556Z" transform="translate(-75.546 -14.31)" fill="#3f63da"/>
+            </g>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -44.46, -13)" filter="url(#Path_16094)">
+            <path id="Path_16094-2" data-name="Path 16094" d="M18.571,7.857H12.143V1.429A1.429,1.429,0,0,0,10.714,0H9.286A1.429,1.429,0,0,0,7.857,1.429V7.857H1.429A1.429,1.429,0,0,0,0,9.286v1.429a1.429,1.429,0,0,0,1.429,1.429H7.857v6.429A1.429,1.429,0,0,0,9.286,20h1.429a1.429,1.429,0,0,0,1.429-1.429V12.143h6.429A1.429,1.429,0,0,0,20,10.714V9.286A1.429,1.429,0,0,0,18.571,7.857Z" transform="translate(250 22)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_10166" data-name="Group 10166" transform="translate(577 1659)">
+      <g transform="matrix(1, 0, 0, 1, 108, 766.87)" filter="url(#Path_472)">
+        <g id="Path_472-2" data-name="Path 472" transform="translate(6 109.11)" fill="#fff">
+          <path d="M3.551,0h714.9A3.551,3.551,0,0,1,722,3.551V377.57a3.551,3.551,0,0,1-3.551,3.551H3.551A3.551,3.551,0,0,1,0,377.57V3.551A3.551,3.551,0,0,1,3.551,0Z" stroke="none"/>
+          <path d="M 3.55078125 3.0517578125e-05 C 1.58978271484375 3.0517578125e-05 -6.103515625e-05 1.589752197265625 -6.103515625e-05 3.55084228515625 L -6.103515625e-05 377.5704650878906 C -6.103515625e-05 379.5315551757813 1.58978271484375 381.1212768554688 3.55078125 381.1212768554688 L 718.4491577148438 381.1212768554688 C 720.4102172851563 381.1212768554688 722 379.5315551757813 722 377.5704650878906 L 722 3.55084228515625 C 722 1.589752197265625 720.4102172851563 3.0517578125e-05 718.4491577148438 3.0517578125e-05 L 3.55078125 3.0517578125e-05 M 3.55078125 -0.999969482421875 L 718.4491577148438 -0.999969482421875 C 720.95849609375 -0.999969482421875 723 1.041473388671875 723 3.55084228515625 L 723 377.5704650878906 C 723 380.079833984375 720.95849609375 382.1212768554688 718.4491577148438 382.1212768554688 L 3.55078125 382.1212768554688 C 1.04144287109375 382.1212768554688 -1.00006103515625 380.079833984375 -1.00006103515625 377.5704650878906 L -1.00006103515625 3.55084228515625 C -1.00006103515625 1.041473388671875 1.04144287109375 -0.999969482421875 3.55078125 -0.999969482421875 Z" stroke="none" fill="rgba(58,95,217,0.1)"/>
+        </g>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 108, 766.87)" filter="url(#Rectangle_1686)">
+        <path id="Rectangle_1686-2" data-name="Rectangle 1686" d="M6,0H716a6,6,0,0,1,6,6V35.508a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V6A6,6,0,0,1,6,0Z" transform="translate(6 102.01)" fill="#4e0080"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 108, 766.87)" filter="url(#Expenses)">
+        <text id="Expenses-2" data-name="Expenses" transform="translate(348.06 122.66)" fill="#fff" font-size="9" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Expenses</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 108, 766.87)" filter="url(#Impressions)">
+        <text id="Impressions-2" data-name="Impressions" transform="translate(249.82 122.66)" fill="#fff" font-size="9" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Impressions</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 108, 766.87)" filter="url(#Status)">
+        <text id="Status-2" data-name="Status" transform="translate(594.84 122.66)" fill="#fff" font-size="9" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Status</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 108, 766.87)" filter="url(#Countries)">
+        <text id="Countries-2" data-name="Countries" transform="translate(74.06 122.66)" fill="#fff" font-size="9" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Countries</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 108, 766.87)" filter="url(#_)">
+        <text id="_2-2" data-name="#" transform="translate(27.9 123.3)" fill="#fff" font-size="12" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">#</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 108, 766.87)" filter="url(#Conversions)">
+        <text id="Conversions-2" data-name="Conversions" transform="translate(427.36 122.66)" fill="#fff" font-size="9" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Conversions</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 108, 766.87)" filter="url(#sort-amount-down)">
+        <path id="sort-amount-down-2" data-name="sort-amount-down" d="M3.959,39.679,2.268,41.37a.338.338,0,0,1-.478,0L.1,39.679A.338.338,0,0,1,.338,39.1H1.353V32.338A.338.338,0,0,1,1.691,32h.676a.338.338,0,0,1,.338.338V39.1H3.719A.338.338,0,0,1,3.959,39.679Zm1.114-6.326h5.411a.338.338,0,0,0,.338-.338v-.676A.338.338,0,0,0,10.483,32H5.072a.338.338,0,0,0-.338.338v.676A.338.338,0,0,0,5.072,33.353ZM4.734,35.72v-.676a.338.338,0,0,1,.338-.338H9.131a.338.338,0,0,1,.338.338v.676a.338.338,0,0,1-.338.338H5.072A.338.338,0,0,1,4.734,35.72Zm0,5.411v-.676a.338.338,0,0,1,.338-.338H6.425a.338.338,0,0,1,.338.338v.676a.338.338,0,0,1-.338.338H5.072A.338.338,0,0,1,4.734,41.131Zm0-2.705v-.676a.338.338,0,0,1,.338-.338H7.778a.338.338,0,0,1,.338.338v.676a.338.338,0,0,1-.338.338H5.072A.338.338,0,0,1,4.734,38.425Z" transform="translate(310.02 83.03)" fill="#c07fdf"/>
+      </g>
+      <text id="New_Text_Document" data-name="New Text Document" transform="translate(182.057 922.118)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Oman</tspan></text>
+      <text id="_12546" data-name="12546" transform="translate(182.057 948.749)" fill="#e83131" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Yemen</tspan></text>
+      <text id="_12546-2" data-name="12546" transform="translate(182.057 975.38)" fill="#e83131" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Saudi Arabia</tspan></text>
+      <text id="_12546-3" data-name="12546" transform="translate(182.057 1002.011)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">U.A.E</tspan></text>
+      <text id="_12546-4" data-name="12546" transform="translate(182.057 1028.643)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Qatar</tspan></text>
+      <text id="_12546-5" data-name="12546" transform="translate(182.057 1055.274)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Bahrain</tspan></text>
+      <text id="_12546-6" data-name="12546" transform="translate(182.057 1081.905)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Kuwait</tspan></text>
+      <text id="_12546-7" data-name="12546" transform="translate(182.057 1108.536)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Jordan</tspan></text>
+      <text id="_12546-8" data-name="12546" transform="translate(182.057 1135.167)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Lebanon</tspan></text>
+      <text id="_12546-9" data-name="12546" transform="translate(182.057 1161.798)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Iraq</tspan></text>
+      <text id="_12546-10" data-name="12546" transform="translate(182.057 1188.43)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Syria</tspan></text>
+      <text id="_12546-11" data-name="12546" transform="translate(182.057 1215.061)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Egypt</tspan></text>
+      <text id="_12546-12" data-name="12546" transform="translate(182.057 1241.692)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Libya</tspan></text>
+      <text id="_1-2" data-name="1" transform="translate(135.897 921.118)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">1</tspan></text>
+      <text id="_158_125" data-name="158,125" transform="translate(365.516 921.118)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23" data-name="23" transform="translate(554.893 921.118)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_" data-name=".85$" transform="translate(466.123 921.118)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_164" data-name="Line 164" x2="694.099" transform="translate(129.134 930.719)" fill="none" stroke="#cbcbd2" stroke-width="1"/>
+      <text id="_2-3" data-name="2" transform="translate(135.897 947.749)" fill="#e83131" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">2</tspan></text>
+      <text id="_158_125-2" data-name="158,125" transform="translate(365.516 947.749)" fill="#e83131" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-2" data-name="23" transform="translate(554.893 947.749)" fill="#e83131" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_2" data-name=".85$" transform="translate(466.123 947.749)" fill="#e83131" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <path id="Path_469" data-name="Path 469" d="M0,0H694.1" transform="translate(129.134 957.35)" fill="none" stroke="#e83131" stroke-width="0.5"/>
+      <text id="_3-2" data-name="3" transform="translate(135.897 974.38)" fill="#e83131" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">3</tspan></text>
+      <text id="_158_125-3" data-name="158,125" transform="translate(365.516 974.38)" fill="#e83131" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-3" data-name="23" transform="translate(554.893 974.38)" fill="#e83131" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_3" data-name=".85$" transform="translate(466.123 974.38)" fill="#e83131" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_166" data-name="Line 166" x2="694.099" transform="translate(129.134 983.981)" fill="none" stroke="#e83131" stroke-width="0.5"/>
+      <text id="_4-2" data-name="4" transform="translate(135.897 1001.011)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">4</tspan></text>
+      <text id="_158_125-4" data-name="158,125" transform="translate(365.516 1001.011)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-4" data-name="23" transform="translate(554.893 1001.011)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_4" data-name=".85$" transform="translate(466.123 1001.011)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_167" data-name="Line 167" x2="694.099" transform="translate(129.134 1010.612)" fill="none" stroke="#cbcbd2" stroke-width="1"/>
+      <text id="_5-2" data-name="5" transform="translate(135.897 1027.643)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">5</tspan></text>
+      <text id="_158_125-5" data-name="158,125" transform="translate(365.516 1027.643)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-5" data-name="23" transform="translate(554.893 1027.643)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_5" data-name=".85$" transform="translate(466.123 1027.643)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_168" data-name="Line 168" x2="694.099" transform="translate(129.134 1037.243)" fill="none" stroke="#cbcbd2" stroke-width="1"/>
+      <text id="_6-2" data-name="6" transform="translate(135.897 1054.274)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">6</tspan></text>
+      <text id="_158_125-6" data-name="158,125" transform="translate(365.516 1054.274)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-6" data-name="23" transform="translate(554.893 1054.274)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_6" data-name=".85$" transform="translate(466.123 1054.274)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_169" data-name="Line 169" x2="694.099" transform="translate(129.134 1063.875)" fill="none" stroke="#cbcbd2" stroke-width="1"/>
+      <text id="_7-2" data-name="7" transform="translate(135.897 1080.905)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">7</tspan></text>
+      <text id="_158_125-7" data-name="158,125" transform="translate(365.516 1080.905)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-7" data-name="23" transform="translate(554.893 1080.905)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_7" data-name=".85$" transform="translate(466.123 1080.905)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_170" data-name="Line 170" x2="694.099" transform="translate(129.134 1090.506)" fill="none" stroke="#cbcbd2" stroke-width="1"/>
+      <text id="_8-2" data-name="8" transform="translate(135.897 1107.536)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">8</tspan></text>
+      <text id="_158_125-8" data-name="158,125" transform="translate(365.516 1107.536)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-8" data-name="23" transform="translate(554.893 1107.536)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_8" data-name=".85$" transform="translate(466.123 1107.536)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_171" data-name="Line 171" x2="694.099" transform="translate(129.134 1117.137)" fill="none" stroke="#cbcbd2" stroke-width="1"/>
+      <text id="_9-2" data-name="9" transform="translate(135.897 1134.167)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">9</tspan></text>
+      <text id="_158_125-9" data-name="158,125" transform="translate(365.516 1134.167)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-9" data-name="23" transform="translate(554.893 1134.167)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_9" data-name=".85$" transform="translate(466.123 1134.167)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_172" data-name="Line 172" x2="694.099" transform="translate(129.134 1143.768)" fill="none" stroke="#cbcbd2" stroke-width="1"/>
+      <text id="_10-2" data-name="10" transform="translate(135.897 1161.798)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">10</tspan></text>
+      <text id="_158_125-10" data-name="158,125" transform="translate(365.516 1160.798)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-10" data-name="23" transform="translate(554.893 1160.798)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_10" data-name=".85$" transform="translate(466.123 1160.798)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_173" data-name="Line 173" x2="694.099" transform="translate(129.134 1170.399)" fill="none" stroke="#cbcbd2" stroke-width="1"/>
+      <text id="_11-2" data-name="11" transform="translate(135.897 1188.43)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">11</tspan></text>
+      <text id="_158_125-11" data-name="158,125" transform="translate(365.516 1187.43)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-11" data-name="23" transform="translate(554.893 1187.43)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_11" data-name=".85$" transform="translate(466.123 1187.43)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_174" data-name="Line 174" x2="694.099" transform="translate(129.134 1197.03)" fill="none" stroke="#cbcbd2" stroke-width="1"/>
+      <text id="_12" data-name="12" transform="translate(135.897 1215.061)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">12</tspan></text>
+      <text id="_158_125-12" data-name="158,125" transform="translate(365.516 1214.061)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-12" data-name="23" transform="translate(554.893 1214.061)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_12" data-name=".85$" transform="translate(466.123 1214.061)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <line id="Line_175" data-name="Line 175" x2="694.099" transform="translate(129.134 1223.661)" fill="none" stroke="#cbcbd2" stroke-width="1"/>
+      <text id="_13" data-name="13" transform="translate(135.897 1241.692)" fill="#3a5fd9" font-size="10" font-family="Cairo-Bold, Cairo" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">13</tspan></text>
+      <text id="_158_125-13" data-name="158,125" transform="translate(365.516 1240.692)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">158,125</tspan></text>
+      <text id="_23-13" data-name="23" transform="translate(554.893 1240.692)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">23</tspan></text>
+      <text id="_.85_13" data-name=".85$" transform="translate(466.123 1240.692)" fill="#3a5fd9" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">.85$</tspan></text>
+      <g id="Group_3702" data-name="Group 3702" transform="translate(682.131 910.302)">
+        <rect id="Rectangle_1537" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0 0)" fill="#e7effd"/>
+        <text id="Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Included</tspan></text>
+        <path id="Path_454" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3704" data-name="Group 3704" transform="translate(682.131 990.195)">
+        <rect id="Rectangle_1537-2" data-name="Rectangle 1537" width="94.689" height="15.387" rx="6" transform="translate(0)" fill="#e7effd"/>
+        <text id="_12_of_26_Included" data-name="12 of 26 Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">12 of 26 Included</tspan></text>
+        <path id="Path_454-2" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3708" data-name="Group 3708" transform="translate(682.131 1096.72)">
+        <rect id="Rectangle_1537-3" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0 0)" fill="#e7effd"/>
+        <text id="Included-2" data-name="Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Included</tspan></text>
+        <path id="Path_454-3" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3705" data-name="Group 3705" transform="translate(682.131 1042.866)">
+        <rect id="Rectangle_1537-4" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0 0)" fill="#e7effd"/>
+        <text id="Included-3" data-name="Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Included</tspan></text>
+        <path id="Path_454-4" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3710" data-name="Group 3710" transform="translate(682.131 1149.39)">
+        <rect id="Rectangle_1537-5" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0)" fill="#e7effd"/>
+        <text id="Included-4" data-name="Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Included</tspan></text>
+        <path id="Path_454-5" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3712" data-name="Group 3712" transform="translate(682.131 1202.652)">
+        <rect id="Rectangle_1537-6" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0 0)" fill="#e7effd"/>
+        <text id="Included-5" data-name="Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Included</tspan></text>
+        <path id="Path_454-6" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3706" data-name="Group 3706" transform="translate(682.131 1016.826)">
+        <rect id="Rectangle_1537-7" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0)" fill="#e7effd"/>
+        <text id="Included-6" data-name="Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Included</tspan></text>
+        <path id="Path_454-7" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3709" data-name="Group 3709" transform="translate(682.131 1123.351)">
+        <rect id="Rectangle_1537-8" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0)" fill="#e7effd"/>
+        <text id="Included-7" data-name="Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Included</tspan></text>
+        <path id="Path_454-8" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3707" data-name="Group 3707" transform="translate(682.131 1069.497)">
+        <rect id="Rectangle_1537-9" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0 0)" fill="#e7effd"/>
+        <text id="Included-8" data-name="Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Included</tspan></text>
+        <path id="Path_454-9" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3711" data-name="Group 3711" transform="translate(682.131 1176.021)">
+        <rect id="Rectangle_1537-10" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0 0)" fill="#e7effd"/>
+        <text id="Included-9" data-name="Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Included</tspan></text>
+        <path id="Path_454-10" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3713" data-name="Group 3713" transform="translate(682.131 1229.284)">
+        <rect id="Rectangle_1537-11" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0 0)" fill="#e7effd"/>
+        <text id="Included-10" data-name="Included" transform="translate(22.489 9.592)" fill="#3a5fd9" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Included</tspan></text>
+        <path id="Path_454-11" data-name="Path 454" d="M9.469,3.993H8.585A4.028,4.028,0,0,0,5.313.778V0H4.061V.795a3.884,3.884,0,0,0-2.1,1.124A4.09,4.09,0,0,0,.885,3.993H0v1.29H.84A4.039,4.039,0,0,0,4.061,8.762v.707H5.313v-.69a3.9,3.9,0,0,0,2.2-1.139A4.1,4.1,0,0,0,8.627,5.283h.841ZM6.625,6.727a2.626,2.626,0,0,1-1.312.742V6.713H4.061v.729A2.757,2.757,0,0,1,2.109,5.283h.76V3.993h-.7a2.749,2.749,0,0,1,.674-1.162,2.635,2.635,0,0,1,1.217-.717V3.165H5.313V2.09a2.744,2.744,0,0,1,1.981,1.9H6.768v1.29h.6A2.758,2.758,0,0,1,6.625,6.727Z" transform="translate(5.918 2.959)" fill="#3a5fd9"/>
+      </g>
+      <g id="Group_3703" data-name="Group 3703" transform="translate(682.131 936.933)">
+        <rect id="Rectangle_1537-12" data-name="Rectangle 1537" width="67.466" height="15.387" rx="6" transform="translate(0 0)" fill="#fdeaea"/>
+        <text id="Exluded" transform="translate(22.489 9.592)" fill="#e83131" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Exluded</tspan></text>
+        <path id="Path_455" data-name="Path 455" d="M7.9,1.2A4.742,4.742,0,0,0,1.564,8.259a4.764,4.764,0,0,0,6.339,0c.06-.055.118-.109.175-.167A4.756,4.756,0,0,0,7.9,1.2ZM2.452,2.448c.041-.041.082-.08.124-.118a3.247,3.247,0,0,1,3.838-.354L1.983,6.421a3.246,3.246,0,0,1,.47-3.973ZM6.891,7.136a3.25,3.25,0,0,1-3.84.354L7.485,3.044a3.245,3.245,0,0,1-.593,4.091Z" transform="translate(6.51 2.961)" fill="#e83131"/>
+      </g>
+      <g id="Group_4058" data-name="Group 4058" transform="translate(682.131 963.564)">
+        <rect id="Rectangle_1537-13" data-name="Rectangle 1537" width="93.505" height="15.387" rx="6" transform="translate(0)" fill="#fdeaea"/>
+        <text id="_15_of_30_Exluded" data-name="15 of 30 Exluded" transform="translate(22.489 9.592)" fill="#e83131" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">15 of 30 Exluded</tspan></text>
+        <path id="Path_455-2" data-name="Path 455" d="M7.9,1.2A4.742,4.742,0,0,0,1.564,8.259a4.764,4.764,0,0,0,6.339,0c.06-.055.118-.109.175-.167A4.756,4.756,0,0,0,7.9,1.2ZM2.452,2.448c.041-.041.082-.08.124-.118a3.247,3.247,0,0,1,3.838-.354L1.983,6.421a3.246,3.246,0,0,1,.47-3.973ZM6.891,7.136a3.25,3.25,0,0,1-3.84.354L7.485,3.044a3.245,3.245,0,0,1-.593,4.091Z" transform="translate(6.51 2.961)" fill="#e83131"/>
+      </g>
+      <g id="Group_3389" data-name="Group 3389" transform="translate(809.369 881.895)">
+        <g transform="matrix(1, 0, 0, 1, -701.37, -115.03)" filter="url(#Rectangle_1419)">
+          <rect id="Rectangle_1419-2" data-name="Rectangle 1419" width="2.841" height="2.841" transform="translate(701.37 115.03)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -701.37, -115.03)" filter="url(#Rectangle_1424)">
+          <rect id="Rectangle_1424-2" data-name="Rectangle 1424" width="2.841" height="5.681" transform="translate(701.37 118.82)" fill="#d2b7e0"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -701.37, -115.03)" filter="url(#Rectangle_1420)">
+          <rect id="Rectangle_1420-2" data-name="Rectangle 1420" width="2.841" height="2.841" transform="translate(705.63 115.03)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -701.37, -115.03)" filter="url(#Rectangle_1423)">
+          <rect id="Rectangle_1423-2" data-name="Rectangle 1423" width="2.841" height="5.681" transform="translate(705.63 118.82)" fill="#d2b7e0"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -701.37, -115.03)" filter="url(#Rectangle_1421)">
+          <rect id="Rectangle_1421-2" data-name="Rectangle 1421" width="2.841" height="2.841" transform="translate(709.89 115.03)" fill="#fff"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -701.37, -115.03)" filter="url(#Rectangle_1422)">
+          <rect id="Rectangle_1422-2" data-name="Rectangle 1422" width="2.841" height="5.681" transform="translate(709.89 118.82)" fill="#d2b7e0"/>
+        </g>
+      </g>
+      <g id="Group_4180" data-name="Group 4180" transform="translate(261.951 879.528)">
+        <g transform="matrix(1, 0, 0, 1, -153.95, -112.66)" filter="url(#Search)">
+          <text id="Search-3" data-name="Search" transform="translate(166.38 122.66)" fill="#c07fdf" font-size="9" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Search</tspan></text>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -153.95, -112.66)" filter="url(#search-2)">
+          <path id="search-4" data-name="search" d="M9.338,8.186,7.495,6.343a.443.443,0,0,0-.314-.129h-.3a3.845,3.845,0,1,0-.666.666v.3a.443.443,0,0,0,.129.314L8.186,9.338a.442.442,0,0,0,.627,0l.523-.523A.446.446,0,0,0,9.338,8.186ZM3.846,6.213A2.367,2.367,0,1,1,6.213,3.846,2.366,2.366,0,0,1,3.846,6.213Z" transform="translate(153.95 115.62)" fill="#c07fdf"/>
+        </g>
+      </g>
+      <g id="Group_4185" data-name="Group 4185" transform="translate(114 1252.956)">
+        <g transform="matrix(1, 0, 0, 1, -6, -486.09)" filter="url(#Rectangle_1691)">
+          <path id="Rectangle_1691-2" data-name="Rectangle 1691" d="M0,0H722a0,0,0,0,1,0,0V29.508a6,6,0,0,1-6,6H6a6,6,0,0,1-6-6V0A0,0,0,0,1,0,0Z" transform="translate(6 486.09)" fill="#4e0080"/>
+        </g>
+        <rect id="Rectangle_1908" data-name="Rectangle 1908" width="59.18" height="18.938" rx="6" transform="translate(574.049 8.877)" fill="#590091"/>
+        <rect id="Rectangle_1909" data-name="Rectangle 1909" width="59.18" height="18.938" rx="6" transform="translate(645.066 8.877)" fill="#590091"/>
+        <g id="Group_3746" data-name="Group 3746" transform="translate(651.575 11.244)">
+          <g id="Group_3735" data-name="Group 3735" transform="translate(0 0)">
+            <g transform="matrix(1, 0, 0, 1, -657.58, -497.33)" filter="url(#Export)">
+              <text id="Export-2" data-name="Export" transform="translate(673.55 506.33)" fill="#e4eaff" font-size="8" font-family="Almarai-Bold, Almarai" font-weight="700" letter-spacing="0.03em"><tspan x="0" y="0">Export</tspan></text>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -657.58, -497.33)" filter="url(#file-export)">
+              <path id="file-export-2" data-name="file-export" d="M7.1,2.254a.442.442,0,0,0-.129-.313L5.162.129A.444.444,0,0,0,4.847,0H4.734V2.367H7.1ZM3.551,6.214V5.622a.3.3,0,0,1,.3-.3H7.1V2.959H4.586a.445.445,0,0,1-.444-.444V0H.444A.443.443,0,0,0,0,.444V9.025a.443.443,0,0,0,.444.444H6.658A.443.443,0,0,0,7.1,9.025V6.51H3.847A.3.3,0,0,1,3.551,6.214Zm7.01-.518L8.791,3.912a.3.3,0,0,0-.506.208V5.326H7.1V6.51H8.285V7.715a.3.3,0,0,0,.506.208l1.77-1.783a.316.316,0,0,0,0-.445Z" transform="translate(657.58 499.7)" fill="#e4eaff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_3747" data-name="Group 3747" transform="translate(579.967 13.02)">
+          <g id="Group_3735-2" data-name="Group 3735" transform="translate(0 0)">
+            <g transform="matrix(1, 0, 0, 1, -585.97, -499.11)" filter="url(#Refresh)">
+              <text id="Refresh-2" data-name="Refresh" transform="translate(601.35 506.11)" fill="#e4eaff" font-size="8" font-family="Almarai-Regular, Almarai" letter-spacing="0.03em"><tspan x="0" y="0">Refresh</tspan></text>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, -585.97, -499.11)" filter="url(#redo-alt)">
+              <path id="redo-alt-3" data-name="redo-alt" d="M5,.258A4.718,4.718,0,0,1,8.263,1.569L8.945.887a.458.458,0,0,1,.782.324V3.771a.458.458,0,0,1-.458.458H6.709a.458.458,0,0,1-.324-.782l.8-.8A3.207,3.207,0,1,0,7.1,7.406a.229.229,0,0,1,.312.011l.757.757a.23.23,0,0,1-.009.333A4.734,4.734,0,1,1,5,.258Z" transform="translate(585.71 498.85)" fill="#e4eaff"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_3744" data-name="Group 3744" transform="translate(14.795 8.877)">
+          <rect id="Rectangle_1688" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(0)" fill="#590091"/>
+          <g id="Rectangle_1688-2" data-name="Rectangle 1688" transform="translate(24.856)" fill="#fff" stroke="rgba(58,95,217,0.1)" stroke-width="1">
+            <rect width="18.938" height="18.938" rx="6" stroke="none"/>
+            <rect x="-0.5" y="-0.5" width="19.938" height="19.938" rx="6.5" fill="none"/>
+          </g>
+          <rect id="Rectangle_1688-3" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(49.712)" fill="#590091"/>
+          <rect id="Rectangle_1688-4" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(74.567)" fill="#590091"/>
+          <rect id="Rectangle_1688-5" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(99.423)" fill="#590091"/>
+          <rect id="Rectangle_1688-6" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(124.279)" fill="#590091"/>
+          <rect id="Rectangle_1688-7" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(149.134)" fill="#590091"/>
+          <rect id="Rectangle_1688-8" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(173.99)" fill="#590091"/>
+          <rect id="Rectangle_1688-9" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(198.846)" fill="#590091"/>
+          <rect id="Rectangle_1688-10" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(223.702)" fill="#590091"/>
+          <rect id="Rectangle_1688-11" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(248.557)" fill="#590091"/>
+          <rect id="Rectangle_1688-12" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(273.413)" fill="#590091"/>
+          <rect id="Rectangle_1688-13" data-name="Rectangle 1688" width="18.938" height="18.938" rx="6" transform="translate(298.269)" fill="#590091"/>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#chevron-left)">
+            <path id="chevron-left-3" data-name="chevron-left" d="M27.607,40.937l3.161-3.16a.39.39,0,0,1,.552,0l.369.369a.39.39,0,0,1,0,.551l-2.5,2.516,2.5,2.517a.39.39,0,0,1,0,.551l-.369.369a.39.39,0,0,1-.552,0l-3.16-3.161A.39.39,0,0,1,27.607,40.937Z" transform="translate(0.4 463.22)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#chevron-left-2)">
+            <path id="chevron-left-4" data-name="chevron-left" d="M31.688,40.937l-3.161-3.16a.39.39,0,0,0-.552,0l-.369.369a.39.39,0,0,0,0,.551l2.5,2.516-2.5,2.517a.39.39,0,0,0,0,.551l.369.369a.39.39,0,0,0,.552,0l3.16-3.161A.39.39,0,0,0,31.688,40.937Z" transform="translate(298.67 463.22)" fill="#fff"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_1)">
+            <text id="_1-3" data-name="1" transform="translate(54.75 505.56)" fill="#590091" font-size="8" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="-2.24" y="0">1</tspan></text>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_2)">
+            <text id="_2-4" data-name="2" transform="translate(79.61 505.56)" fill="#fff" font-size="8" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-2.24" y="0">2</tspan></text>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_3)">
+            <text id="_3-3" data-name="3" transform="translate(104.46 505.56)" fill="#fff" font-size="8" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-2.24" y="0">3</tspan></text>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_4)">
+            <text id="_4-3" data-name="4" transform="translate(129.32 505.56)" fill="#fff" font-size="8" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-2.24" y="0">4</tspan></text>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_5)">
+            <text id="_5-3" data-name="5" transform="translate(154.18 505.56)" fill="#fff" font-size="8" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-2.24" y="0">5</tspan></text>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_6)">
+            <text id="_6-3" data-name="6" transform="translate(179.03 505.56)" fill="#fff" font-size="8" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-2.24" y="0">6</tspan></text>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_7)">
+            <text id="_7-3" data-name="7" transform="translate(203.89 505.56)" fill="#fff" font-size="8" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-2.24" y="0">7</tspan></text>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_8)">
+            <text id="_8-3" data-name="8" transform="translate(228.74 505.56)" fill="#fff" font-size="8" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-2.24" y="0">8</tspan></text>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_9)">
+            <text id="_9-3" data-name="9" transform="translate(253.6 505.56)" fill="#fff" font-size="8" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-2.24" y="0">9</tspan></text>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_10)">
+            <text id="_10-3" data-name="10" transform="translate(278.49 507.56)" fill="#fff" font-size="9" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-5.04" y="0">10</tspan></text>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -20.8, -494.97)" filter="url(#_11)">
+            <text id="_11-3" data-name="11" transform="translate(303.35 507.56)" fill="#fff" font-size="9" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-5.04" y="0">11</tspan></text>
+          </g>
+        </g>
+      </g>
+      <g id="Group_4181" data-name="Group 4181" transform="translate(122.581 831)">
+        <line id="Line_74" data-name="Line 74" x2="708.093" transform="translate(3.847 21.601)" fill="none" stroke="#590091" stroke-width="1" opacity="0.5"/>
+        <rect id="Rectangle_161" data-name="Rectangle 161" width="97.056" height="1.775" rx="0.888" transform="translate(0 20.713)" fill="#590091"/>
+        <text id="Ads_Unit" data-name="Ads Unit" transform="translate(116.289 11)" fill="#9755b7" font-size="10" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Ads Unit</tspan></text>
+        <text id="Ads_Unit-2" data-name="Ads Unit" transform="translate(481.432 11)" fill="#9755b7" font-size="10" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Ads Unit</tspan></text>
+        <text id="countries_cities" data-name="countries &amp; cities" transform="translate(3.847 11)" fill="#590091" font-size="10" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">countries &amp; cities</tspan></text>
+        <text id="Zones" transform="translate(185.53 11)" fill="#9755b7" font-size="10" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Zones</tspan></text>
+        <text id="Zones-2" data-name="Zones" transform="translate(550.081 11)" fill="#9755b7" font-size="10" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Zones</tspan></text>
+        <text id="ISP" transform="translate(437.639 11)" fill="#9755b7" font-size="10" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">ISP</tspan></text>
+        <text id="Operating_systems" data-name="Operating systems" transform="translate(242.343 11)" fill="#9755b7" font-size="10" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Operating systems</tspan></text>
+        <text id="Operating_systems-2" data-name="Operating systems" transform="translate(607.486 11)" fill="#9755b7" font-size="10" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Operating systems</tspan></text>
+        <text id="Browsers" transform="translate(363.663 11)" fill="#9755b7" font-size="10" font-family="Almarai-Bold, Almarai" font-weight="700"><tspan x="0" y="0">Browsers</tspan></text>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 108, 766.87)" filter="url(#redo-alt-2)">
+        <path id="redo-alt-4" data-name="redo-alt" d="M5,.258A4.718,4.718,0,0,1,8.263,1.569L8.945.887a.458.458,0,0,1,.782.324V3.771a.458.458,0,0,1-.458.458H6.709a.458.458,0,0,1-.324-.782l.8-.8A3.207,3.207,0,1,0,7.1,7.406a.229.229,0,0,1,.312.011l.757.757a.23.23,0,0,1-.009.333A4.734,4.734,0,1,1,5,.258Z" transform="translate(680.4 114.77)" fill="#fff"/>
+      </g>
+      <g id="Group_4057" data-name="Group 4057" transform="translate(221.708 910.302)">
+        <text id="See_cities" data-name="See cities" transform="translate(0 12)" fill="#6e00b3" font-size="9" font-family="Cairo-Bold, Cairo" font-weight="700"><tspan x="0" y="0">See cities</tspan></text>
+        <g transform="matrix(1, 0, 0, 1, -113.71, -143.44)" filter="url(#Path_399)">
+          <path id="Path_399-2" data-name="Path 399" d="M7.755,0H5.073A.526.526,0,0,0,4.7.9l.71.721L1.623,5.411.9,4.7a.53.53,0,0,0-.9.372V7.755a.529.529,0,0,0,.53.53H3.213a.526.526,0,0,0,.372-.9h0l-.721-.721,3.8-3.8.721.721a.531.531,0,0,0,.744,0,.519.519,0,0,0,.147-.372V.53A.513.513,0,0,0,7.755,0Z" transform="translate(155.13 149.35)" fill="#6e00b3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

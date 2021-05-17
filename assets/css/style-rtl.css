@@ -14,6 +14,9 @@ html[dir="rtl"] .advertise-item ul li::before {
     right: -33px;
 
 }
+html[dir="rtl"]  nav .nav-link{
+  text-align: right;
+}
 html[dir="rtl"] .convert h2{
   text-align: right;
 }
@@ -79,7 +82,11 @@ html[dir="rtl"] .drive-audience-tab .nav-tabs .nav-item:nth-last-of-type(1) .nav
   padding-left: 0;
   padding-right: 25px;
 }
-@keyframes moveLeft {
+html[dir="rtl"] .drive-audience .img-side img.active{
+  display: block;
+  animation: moveRight 0.5s;
+}
+@keyframes moveRight {
   0% {
     transform: translateX(-100%);
 }
